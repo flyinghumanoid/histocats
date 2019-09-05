@@ -1,5 +1,6 @@
 import React from "react"
 import CuteGreenCats from "../Data/CuteGreenCats"
+import Cat from "./Catsvg"
 
 class Content extends React.Component{
     constructor(){
@@ -38,7 +39,12 @@ class Content extends React.Component{
 
       return(
         <div id="content">
-          <button id={style} onClick={this.clickHandle}>{label}</button>
+          <div id="catCon">
+            <Cat width={350}/>
+          </div>
+          <div id="purify">
+            <button id={style} onClick={this.clickHandle}>{label}</button>
+          </div>
         </div>
       )
     }

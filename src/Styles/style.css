@@ -22,7 +22,15 @@
   grid-template-rows: 4fr 1fr;
   grid-area: 2/2/8/3;
 }
-.container #content button {
+.container #content #catCon {
+  grid-area: 1/1/1/1;
+  place-self: center;
+}
+.container #content #catCon .st0 {
+  border: none;
+  background-color: #7C5335;
+}
+.container #content #purify {
   grid-area: 2/1/2/1;
   place-self: center;
   padding: 1rem;

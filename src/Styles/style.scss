@@ -28,7 +28,17 @@ $border: .2rem solid black;
     display: grid;
     grid-template-rows: 4fr 1fr;
     grid-area: 2/2/8/3;
-    button
+    #catCon
+    {
+      grid-area: 1/1/1/1;
+      place-self:center;
+      .st0
+      {
+        border:none;
+        background-color:#7C5335;
+      }
+    }
+    #purify
     {
         grid-area: 2/1/2/1;
         place-self:center;
